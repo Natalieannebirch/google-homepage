@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google</title>
+	<style>
+				a {
+		 text-decoration: none;
+		 font-family:arial, sans-serif;
+		 font-size: 13px;
+		 color: #666666;
+		  }
+        a:hover{
+            text-decoration: underline;
+            color: #666666;
+        }
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		.left{
+			float:left;
+			padding: 15px 3px 10px 15px;
+		}
+		.right{
+			float:right;
+			padding: 15px 3px 10px 15px;
+            color: rgba(0,0,0,0.87);
+		}
+		.sign-in{
+			padding: 8px 25px 10px 15px;
+		}
+		#si-button{
+			background-color:#4285F4;
+			height: 30px;
+			width: 70px;
+			border-color:#4285F4;
+			color:white;
+            border-style: none;
+			border-radius: 2px;
+			display: center;
+            font-family:arial, sans-serif;
+		}
+        #si-button:hover{
+            cursor: pointer;
+            box-shadow: 0 1px 1px 1px rgba(0,0,0,0.10);
+        }
+        
+        #logo{
+            text-align:center;
+            padding: 200px 0px 20px 0px;
+        }
+        .apps-logo{
+            background-size:contain;
+            display: inline-block; 
+            padding-top: 12px; 
+            opacity:    .5;
+                 }
+        .apps-logo:hover{
+            opacity: 1;
+        }
+        .search{
+            border-radius: 20px;
+            height: 40px;
+            width: 550px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            border-width: 1px;
+            border-style: solid;
+           border-color: #d6d1d1;
+           background-color: white;
+          
+            
+        }
+
+        .search:hover{
+            box-shadow: 0 0 5px rgba(0,0,0,0.10), 0 0 6px rgba(0,0,0,0.25);
+            border-color:white;
+            
+        }
+        .search-buttons{
+            margin-top: 30px;
+            background-color:rgb(242, 242, 242) ;
+            height: 35px;
+            width:135px;
+            border-radius: 4px;
+            font-family:arial, sans-serif;
+            font-size:14px;
+            border-style: none;
+            color:#5F6368;
+        }
+        #container{
+            text-align:center;
+        }
+
+        .search-buttons:hover{
+            border-color: rgb(198, 198, 198);
+            border-style:solid;
+            border-width: 1px;
+            color: rgba(0,0,0,0.87);
+            cursor: pointer;
+        }
+	</style>
+</head>
+<body>
+	<div><ul>
+		<li><a class="left" href="https://about.google/">About</a></li>
+		<li><a class="left" href="https://store.google.com/">Store</a></li>
+		<li><a class="right sign-in" href="https://myaccount.google.com/"><button id="si-button"><strong>Sign In</strong></button></a></li>		
+		<li><a class="right apps-logo " href="https://gsuite.google.com/"><img src="C:\Users\info\Desktop\apps-icon.png" ></a></li>
+		<li><a class="right" href="https://images.google.com/">Images</a></li>
+		<li><a class="right" href="https://mail.google.com/">Gmail</a></li>
+	</ul></div>
+<div id="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>
+<form>
+    <div> <input class="search" type ="text"> </div>
+</form>
+<div id="container">
+    <button Class="search-buttons">Google Search</button>
+    <button Class="search-buttons">I'm Feeling Lucky</button>
+</div>
+</body>
+</html>
